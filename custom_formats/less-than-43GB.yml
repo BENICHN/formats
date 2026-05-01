@@ -1,13 +1,13 @@
 name: less-than-43GB
-    description: ''
-    tags: []
-    conditions:
-    - name: size
-      type: size
-      required: true
-      negate: false
-      minSize: ''
-      maxSize: '43'
-      minSizeUnit: GB
-      maxSizeUnit: GB
-    tests: []
+description: ''
+tags: []
+conditions:
+- name: size
+  type: size
+  required: true
+  negate: false
+  minSize: ''
+  maxSize: '43'
+  minSizeUnit: GB
+  maxSizeUnit: GB
+tests: []
