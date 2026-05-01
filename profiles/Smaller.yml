@@ -206,9 +206,11 @@ custom_formats:
   score: 100
 - name: less-than-100GB
   score: 100
+custom_formats_radarr: []
+custom_formats_sonarr: []
 qualities:
 - id: -1
-  name: HD (1080p)
+  name: HD
   description: ''
   qualities:
   - id: 10
@@ -221,18 +223,18 @@ qualities:
     name: WEBRip-1080p
   - id: 12
     name: HDTV-1080p
-- id: -2
-  name: SD (720p - 480p)
-  description: ''
-  qualities:
-  - id: 13
-    name: Bluray-720p
-  - id: 14
-    name: WEBDL-720p
-  - id: 15
-    name: WEBRip-720p
   - id: 16
     name: HDTV-720p
+  - id: 15
+    name: WEBRip-720p
+  - id: 14
+    name: WEBDL-720p
+  - id: 13
+    name: Bluray-720p
+- id: -2
+  name: SD
+  description: ''
+  qualities:
   - id: 18
     name: Bluray-480p
   - id: 19
@@ -245,4 +247,5 @@ qualities:
     name: SDTV
   - id: 17
     name: Bluray-576p
-language: any
+upgrade_until: null
+language: must_french
