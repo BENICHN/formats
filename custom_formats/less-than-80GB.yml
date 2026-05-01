@@ -1,0 +1,13 @@
+name: less-than-80GB
+    description: ''
+    tags: []
+    conditions:
+    - name: size
+      type: size
+      required: true
+      negate: false
+      minSize: ''
+      maxSize: '80'
+      minSizeUnit: GB
+      maxSizeUnit: GB
+    tests: []

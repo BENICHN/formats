@@ -1,0 +1,13 @@
+name: less-than-66GB
+    description: ''
+    tags: []
+    conditions:
+    - name: size
+      type: size
+      required: true
+      negate: false
+      minSize: ''
+      maxSize: '66'
+      minSizeUnit: GB
+      maxSizeUnit: GB
+    tests: []

@@ -1,0 +1,18 @@
+#!/bin/bash
+
+for i in {1..100}
+do
+    echo "name: less-than-${i}GB
+    description: ''
+    tags: []
+    conditions:
+    - name: size
+      type: size
+      required: true
+      negate: false
+      minSize: ''
+      maxSize: '$i'
+      minSizeUnit: GB
+      maxSizeUnit: GB
+    tests: []" >> custom_formats/less-than-${i}GB.yml
+done

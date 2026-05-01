@@ -1,0 +1,26 @@
+name: less-than-1GB
+description: ''
+tags: []
+conditions:
+- name: size
+  type: size
+  required: true
+  negate: false
+  minSize: ''
+  maxSize: '1'
+  minSizeUnit: GB
+  maxSizeUnit: GB
+tests: []
+name: less-than-1GB
+    description: ''
+    tags: []
+    conditions:
+    - name: size
+      type: size
+      required: true
+      negate: false
+      minSize: ''
+      maxSize: '1'
+      minSizeUnit: GB
+      maxSizeUnit: GB
+    tests: []
