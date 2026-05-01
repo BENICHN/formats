@@ -1,0 +1,5 @@
+name: h265
+pattern: ([Hh]|[Xx])265|HEVC|hevc
+description: ''
+tags: []
+tests: []
