@@ -208,7 +208,7 @@ custom_formats_radarr:
 - name: less-than-1GB
   score: -1000
 - name: less-than-2GB
-  score: -1000
+  score: -200
 custom_formats_sonarr:
 - name: less-than-1GB
   score: 100
