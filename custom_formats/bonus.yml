@@ -1,0 +1,10 @@
+name: bonus
+description: ''
+tags: []
+conditions:
+- name: title
+  type: release_title
+  required: false
+  negate: false
+  pattern: bonus
+tests: []
