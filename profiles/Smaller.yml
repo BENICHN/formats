@@ -1,28 +1,12 @@
 name: Smaller
-description:
+description: ''
 tags: []
 upgradesAllowed: false
 minCustomFormatScore: 0
+upgradeUntilScore: 0
+minScoreIncrement: 0
 custom_formats:
-- name: bonus
-  score: -1000000
-- name: less-than-1GB
-  score: -1000
-- name: less-than-2GB
-  score: -1000
-- name: less-than-3GB
-  score: 100
-- name: less-than-4GB
-  score: 100
-- name: less-than-5GB
-  score: 100
-- name: less-than-6GB
-  score: 100
-- name: less-than-7GB
-  score: 100
-- name: less-than-8GB
-  score: 100
-- name: less-than-9GB
+- name: less-than-100GB
   score: 100
 - name: less-than-10GB
   score: 100
@@ -84,6 +68,8 @@ custom_formats:
   score: 100
 - name: less-than-39GB
   score: 100
+- name: less-than-3GB
+  score: 100
 - name: less-than-40GB
   score: 100
 - name: less-than-41GB
@@ -103,6 +89,8 @@ custom_formats:
 - name: less-than-48GB
   score: 100
 - name: less-than-49GB
+  score: 100
+- name: less-than-4GB
   score: 100
 - name: less-than-50GB
   score: 100
@@ -124,6 +112,8 @@ custom_formats:
   score: 100
 - name: less-than-59GB
   score: 100
+- name: less-than-5GB
+  score: 100
 - name: less-than-60GB
   score: 100
 - name: less-than-61GB
@@ -143,6 +133,8 @@ custom_formats:
 - name: less-than-68GB
   score: 100
 - name: less-than-69GB
+  score: 100
+- name: less-than-6GB
   score: 100
 - name: less-than-70GB
   score: 100
@@ -164,6 +156,8 @@ custom_formats:
   score: 100
 - name: less-than-79GB
   score: 100
+- name: less-than-7GB
+  score: 100
 - name: less-than-80GB
   score: 100
 - name: less-than-81GB
@@ -183,6 +177,8 @@ custom_formats:
 - name: less-than-88GB
   score: 100
 - name: less-than-89GB
+  score: 100
+- name: less-than-8GB
   score: 100
 - name: less-than-90GB
   score: 100
@@ -204,10 +200,20 @@ custom_formats:
   score: 100
 - name: less-than-99GB
   score: 100
-- name: less-than-100GB
+- name: less-than-9GB
   score: 100
-custom_formats_radarr: []
-custom_formats_sonarr: []
+- name: bonus
+  score: -1000000
+custom_formats_radarr:
+- name: less-than-1GB
+  score: -1000
+- name: less-than-2GB
+  score: -1000
+custom_formats_sonarr:
+- name: less-than-1GB
+  score: 100
+- name: less-than-2GB
+  score: 100
 qualities:
 - id: -1
   name: HD
